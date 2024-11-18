@@ -1,5 +1,11 @@
-#import "@preview/touying:0.5.2": *
-#import "@preview/fontawesome:0.3.0": *
+#import "_extensions/mnbhundred/exports.typ": *
+#import "_extensions/mnbhundred/utils.typ": *
+#import "_extensions/mnbhundred/components.typ": *
+#import "_extensions/mnbhundred/configs.typ": *
+#import "_extensions/mnbhundred/magic.typ": *
+#import "_extensions/mnbhundred/magic.typ": *
+#import "_extensions/mnbhundred/pdfpc.typ": *
+#import "_extensions/mnbhundred/slides.typ": *
 
 #let new-section-slide(level: 1, title)  = touying-slide-wrapper(self => {
   let body = {
@@ -128,9 +134,6 @@
           )
           block(inset: (top: -0.5em, bottom: 0.25em))[#title]
         }
-
-        set bibliography(style: "apa")
-
         body
       },
       alert: (self: none, it) => text(fill: self.colors.secondary, it),
