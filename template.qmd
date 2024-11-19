@@ -41,7 +41,7 @@ Next, we'll brief review some theme-specific components.
 
 Special classes for emphasis
 
--   `.alert` class for default emphasis, e.g. [the second accent color]{.alert}.
+-   `.alert` class for default emphasis, e.g. [the second accent color]{.fg}
 -   `.fg` class for custom color, e.g. [with `options='fill: rgb("#5D639E")'`]{.fg options="fill: rgb(\"#5D639E\")"}.
 -   `.bg` class for custom **background**, e.g. [with the default color]{.bg}.
 

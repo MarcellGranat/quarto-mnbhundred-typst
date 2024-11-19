@@ -223,7 +223,7 @@
 
 
 // Custom Functions
-#let fg = (fill: rgb("e64173"), it) => text(fill: fill, it)
+#let fg = (fill: rgb("9a2515"), it) => text(fill: fill, weight:"bold", it)
 #let bg = (fill: rgb("e64173"), it) => highlight(
     fill: fill,
     radius: 2pt,
