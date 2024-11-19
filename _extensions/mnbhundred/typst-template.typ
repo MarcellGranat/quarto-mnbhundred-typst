@@ -2,8 +2,7 @@
 #import "_extensions/mnbhundred/utils.typ": *
 #import "_extensions/mnbhundred/components.typ": *
 #import "_extensions/mnbhundred/configs.typ": *
-#import "_extensions/mnbhundred/magic.typ": *
-#import "_extensions/mnbhundred/magic.typ": *
+#import "_extensions/mnbhundred/magic.typ"
 #import "_extensions/mnbhundred/pdfpc.typ": *
 #import "_extensions/mnbhundred/slides.typ": *
 
@@ -134,6 +133,7 @@
           )
           block(inset: (top: -0.5em, bottom: 0.25em))[#title]
         }
+        set bibliography(title: none, style: "apa")
         body
       },
       alert: (self: none, it) => text(fill: self.colors.secondary, it),
