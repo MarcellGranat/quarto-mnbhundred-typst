@@ -1,3 +1,13 @@
+#import "_extensions/mnbhundred/flet/coords.typ": *
+#import "_extensions/mnbhundred/flet/deps.typ": *
+#import "_extensions/mnbhundred/flet/draw.typ": *
+#import "_extensions/mnbhundred/flet/exports.typ": *
+#import "_extensions/mnbhundred/flet/layout.typ": *
+#import "_extensions/mnbhundred/flet/main.typ": *
+#import "_extensions/mnbhundred/flet/marks.typ": *
+#import "_extensions/mnbhundred/flet/shapes.typ": *
+#import "_extensions/mnbhundred/flet/utils.typ"
+
 #import "_extensions/mnbhundred/exports.typ": *
 #import "_extensions/mnbhundred/utils.typ": *
 #import "_extensions/mnbhundred/components.typ": *
@@ -5,6 +15,7 @@
 #import "_extensions/mnbhundred/magic.typ"
 #import "_extensions/mnbhundred/pdfpc.typ": *
 #import "_extensions/mnbhundred/slides.typ": *
+
 
 #let new-section-slide(level: 1, title)  = touying-slide-wrapper(self => {
   let body = {
