@@ -25,6 +25,10 @@ bibliography: references.bib
 source("_extensions/mnbhundred/tables.R")
 ```
 
+```{=typst}
+#let emph = (fill: rgb("9a2515"), it) => text(fill: fill, weight:"bold", it)
+```
+
 # Section Slide as Header Level 1
 
 ## Slide Title as Header Level 2
@@ -118,6 +122,5 @@ iris |>
     gt::gt() |> 
     .gt_finalise()
 ```
-
 
 ## References
